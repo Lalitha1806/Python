@@ -8,6 +8,6 @@ print("one_hundred_notes(100):",one_hundred_notes)
 fifty_notes=remaining_amount//50
 remaining_notes=remaining_amount%50
 print("fifty_notes(50):",fifty_notes)
-total=five_hundred_notes+one_hundred_notes+fifty_notes
-print(total)
-print(amount)
+ten_notes=remaining_notes//10
+remaining_notes=remaining_notes%10
+print("ten_notes(50):",ten_notes)
